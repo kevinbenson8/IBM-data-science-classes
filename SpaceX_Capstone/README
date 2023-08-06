@@ -1,4 +1,16 @@
 This folder contains the jupyter notebooks related to the final capstone class in the IBM Data Science certificate!
+The logical flow of this project is listed below:
 
+0. Spacex.csv - contains launch data collected from SpaceX's publicly available API (https://api.spacexdata.com)
+1. data_collection.ipynb - Jupyter notebook where the data is collected via the SpaceX API, then cleaned
+2. webscraping.ipynb - Data is scraped from wikipedia using the BeautifulSoup package
+3. data_wrangling.ipynb - Exploratory Data Analysis (EDA) is done to find patterns and training labels in the data
+4. sql.ipynb - SQL queries are used to understand the spaceX dataset
+5. dataviz.ipynb - More EDA, particularly visualizations of the different independent variable relationships with matplotlib, and seaborn
+6. folium.ipynb - Several geospatial visulizations are done with the folium for python library to get a sense of each launch sites effect on a successful launch
+7. dash_app.py - Python application that runs an interactive dashboard to visualize launch site and payload mass and their effects on launch outcome
+8. machine_learning.ipynb - Serveral machine learning algorithms are applied with scikit-learn to predict the outcome of launches
+
+The final presentation, where the processes and discoveries are summarized, is contained in the 'spacex_capstone_presentation.pdf' file.
 The code in the notebooks that I am actually writing is usually indicated by a comment or markdown cell above with TASK 
 in all caps
